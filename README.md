@@ -74,7 +74,7 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
  
 
- module logicgates(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
+module logicgates(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
 input a,b;
 output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
 and(Y1,a,b);
