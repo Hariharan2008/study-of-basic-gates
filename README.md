@@ -69,6 +69,11 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by: HARIHARAN S
  RegisterNumber: 25000819
 
+
+
+
+ 
+
  module logicgates(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
 input a,b;
 output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
@@ -80,6 +85,11 @@ nand(Y5,a,b);
 nor(Y6,a,b);
 xnor(Y7,a,b);
 endmodule
+
+
+
+
+
  
 **Logic symbol & Truthtable**
 
